@@ -1,0 +1,17 @@
+{
+  "name": "MEMORA — ඔබේ මතකයේ සඟයා",
+  "short_name": "MEMORA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff4df",
+  "theme_color": "#f47b16",
+  "lang": "si",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

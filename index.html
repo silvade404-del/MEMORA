@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="si">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f47a16"><meta name="description" content="MEMORA — ඔබේ මතකයේ සඟයා">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="styles.css"><title>MEMORA — ඔබේ මතකයේ සඟයා</title>
+</head>
+<body>
+<div id="app" class="app-shell">
+<header class="topbar">
+  <div class="top-brand"><strong>MEMORA</strong><small>ඔබේ මතකයේ සඟයා</small></div>
+  <div class="top-actions">
+    <button class="top-action active" id="topHome" aria-label="මුල් පිටුව">⌂ <span>මුල් පිටුව</span></button>
+    <button class="top-action" id="topSettings" aria-label="සැකසුම්">⚙ <span>සැකසුම්</span></button>
+  </div>
+</header>
+<main id="view" class="view" tabindex="-1"></main>
+</div>
+<div id="modalRoot"></div>
+<input id="restoreFile" type="file" accept="application/json,.json" hidden>
+<script src="app.js"></script>
+</body></html>
